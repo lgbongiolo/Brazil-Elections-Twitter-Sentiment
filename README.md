@@ -1,6 +1,6 @@
 # Brazil-Elections-Twitter-Sentiment
 
-# Twitter Sentiment Analysis using sklearn
+# Twitter Sentiment Analysis using sklearn (Under Review)
 
 # Description:
 - Program that collects data from Twitter API and classify it into sentiment categories based on Amazon reviews positive and negative reviews 
