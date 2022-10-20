@@ -15,7 +15,7 @@
 
 # Insights and notes:
 - Understand how languages work 
-- I am trying to understand how it is classifying a different language from the training dataset 
+- I am trying to understand how it is classifying a different languages from the training dataset 
 - Can we translate the training dataset?
  
 
