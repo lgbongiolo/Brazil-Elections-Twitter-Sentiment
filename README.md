@@ -30,7 +30,7 @@
 - Comparisons added 
 
 # Future Implementations: 
--Plot Analytical charts 
+- Plot Analytical charts 
 - Create a list with market symbol and their sentiment
 - Add time period analysis(select period option)
 - Create sentiment dictionaries from web studies 
