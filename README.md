@@ -3,7 +3,7 @@
 # Twitter Sentiment Analysis using sklearn (Under Review)
 
 # Description:
-- Program that collects data from Twitter API and classify it into sentiment categories based on Amazon reviews positive and negative reviews 
+- Program that collects data from Twitter API and classify it into sentiment categories based on positive and negative Amazon reviews
 # Model Type 
 ### Sklearn - GridSearchCV, Decision Tree Classifier, Linear Regression, Naive Bayes, Logistic Regression, 
 20/10/2022
