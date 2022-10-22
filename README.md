@@ -13,10 +13,12 @@
 # Goals:
 - To build a ML model that is able to predict the sentiment from twitter hashtags, posts and profiles
 
-# Insights and notes:
-- Understand how languages work 
-- I am trying to understand how it is classifying a different languages from the training dataset 
+# Key Insights and Notes
+- This model still under maintenance and might be incorrect for text in Portuguese
+- I am trying to understand how it is classifying a different language from the training dataset 
 - Can we translate the training dataset?
+- The model will perform correctly using english text, try modifying the hashtags 
+- Repeated tweets are affecting the performance, it will be removed on the next updates 
  
 
 # Version Updates:
