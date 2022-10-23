@@ -1,6 +1,6 @@
 # Brazil-Elections-Twitter-Sentiment
 
-# Twitter Sentiment Analysis using sklearn (Under Review)
+# Twitter Sentiment Analysis using Sklearn (Under Review)
 
 # Description:
 - Program that collects data from Twitter API and classify it into sentiment categories based on positive and negative Amazon reviews
@@ -8,18 +8,18 @@
 ### Sklearn - GridSearchCV, Decision Tree Classifier, Linear Regression, Naive Bayes, Logistic Regression, 
 20/10/2022
 
-# Version - V1.1
+# Version - V1.2
 
 # Goals:
 - To build a ML model that is able to predict the sentiment from twitter hashtags, posts and profiles
 
 # Key Insights and Notes
-- This model still under maintenance and might be incorrect for text in Portuguese
-- I am trying to understand how it is classifying a different language from the training dataset 
-- Can we translate the training dataset?
-- The model will perform correctly using english text, try modifying the hashtags 
-- Repeated tweets are affecting the performance, it will be removed on the next updates 
+- The model is analyzing a "sentiment", which is subjective
+- Repeated tweets can be affecting the performance, you decide if you want to keep them  
  
+# Fixes
+- Translation to Portuguese Added 
+
 
 # Version Updates:
 - API connections
@@ -30,9 +30,13 @@
 - Statistics
 - Added sentiment database
 - Comparisons added 
+- Language translation added
+- Remove duplicates 
+
 
 # Future Implementations: 
 - Plot Analytical charts 
+- Add start_time and end_time parameters
 - Create a list with market symbol and their sentiment
 - Add time period analysis(select period option)
 - Create sentiment dictionaries from web studies 
@@ -51,3 +55,4 @@
 - Computer Science youtube channel - https://www.youtube.com/watch?v=ujId4ipkBio&t=280s
 - Keith Galli - https://www.youtube.com/watch?v=M9Itm95JzL0
 - http://jmcauley.ucsd.edu/data/amazon/
+- Daniel Ellis Research - https://towardsdatascience.com/language-translation-using-python-bd8020772ccc
