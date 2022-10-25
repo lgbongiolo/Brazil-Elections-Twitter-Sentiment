@@ -1,27 +1,32 @@
-# Brazil-Elections-Twitter-Sentiment
+# Brazil-Elections-Twitter-Sentiment 
 
-# Twitter Sentiment Analysis using Sklearn (Under Review)
+# Twitter Sentiment Analysis using sklearn (Under Review)
 
 # Description:
 - Program that collects data from Twitter API and classify it into sentiment categories based on positive and negative Amazon reviews
 # Model Type 
-### Sklearn - GridSearchCV, Decision Tree Classifier, Linear Regression, Naive Bayes, Logistic Regression, 
-20/10/2022
+### Ensemble Model - Decision Tree Classifier, Logistic Regression, Random Forest, KNN
+#20/10/2022
 
-# Version - V1.2
+# Version - V1.3
 
 # Goals:
 - To build a ML model that is able to predict the sentiment from twitter hashtags, posts and profiles
 
 # Key Insights and Notes
-- The model is analyzing a "sentiment", which is subjective
-- Repeated tweets can be affecting the performance, you decide if you want to keep them  
+- Since this is an Election sentiment prediction, values can be affect everyday by new information
+- We are translating the tweets from Portuguese to English, this can affect the model's accuracy
+- The ensemble model was able to improve the accuracy by 5% comparing it to the previous model 
+- An ensemble model is not necessary better than any other model, you should be able to read the results and pick the best model
+- Repeated tweets might be affecting the performance, you can choose to remove it 
+- Hyperparameters Optimization was not done yet 
  
 # Fixes
-- Translation to Portuguese Added 
+- Translation to Portuguese Added
 
 
 # Version Updates:
+- Ensemble Model added
 - API connections
 - Classify by hashtags
 - Sklearn implemented 
@@ -42,9 +47,7 @@
 - Create sentiment dictionaries from web studies 
 - Hyperparameters Optimization 
 - Train and test with the Brazilian dataset
-- Test with other ML models 
-- Test with ensemble model
-- Analyse use of prepositions 
+- Analyze use of prepositions 
 - Create a Market Checker were it indicates the sentiment on the period and Prints the Chart Bullish or Bearish 
 
 # Author - Luiz Gabriel Bongiolo
@@ -56,3 +59,4 @@
 - Keith Galli - https://www.youtube.com/watch?v=M9Itm95JzL0
 - http://jmcauley.ucsd.edu/data/amazon/
 - Daniel Ellis Research - https://towardsdatascience.com/language-translation-using-python-bd8020772ccc
+- Leandro Guerra - https://www.outspokenmarket.com/ - Instagram @leandrowar
