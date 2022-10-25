@@ -15,6 +15,7 @@
 
 # Key Insights and Notes
 - Since this is an Election sentiment prediction, values can be affect everyday by new information
+- We are translating the tweets from Portuguese to English, this can affect the model's accuracy
 - The ensemble model was able to improve the accuracy by 5% comparing it to the previous model 
 - An ensemble model is not necessary better than any other model, you should be able to read the results and pick the best model
 - Repeated tweets might be affecting the performance, you can choose to remove it 
