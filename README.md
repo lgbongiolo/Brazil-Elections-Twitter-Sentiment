@@ -1,12 +1,12 @@
 # Brazil-Elections-Twitter-Sentiment 
 
-# Twitter Sentiment Analysis using sklearn (Under Review)
+# Twitter Sentiment Analysis using sklearn 
 
 # Description:
 - Program that collects data from Twitter API and classify it into sentiment categories based on positive and negative Amazon reviews
 # Model Type 
 ### Ensemble Model - Decision Tree Classifier, Logistic Regression, Random Forest, KNN
-#20/10/2022
+# 20/10/2022
 
 # Version - V1.3
 
